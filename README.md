@@ -20,7 +20,7 @@ install remi, epel repos.
 Role Variables
 --------------
 
-see defaults/main.yml
+none.
 
 Dependencies
 ------------
