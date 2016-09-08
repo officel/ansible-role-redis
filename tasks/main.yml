@@ -6,7 +6,7 @@
   yum:
      name:  "{{ item }}"
      state: installed
-     enablerepo: "remi,epel,epel-release"
+     enablerepo: remi,epel
   with_items:
     - redis
   tags: ['redis']
